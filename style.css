@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 .jumbotron {
     color: #fff;
     padding-top: 6rem;
@@ -9,9 +13,17 @@
 
 }
 
+#Pembina{
+    text-align: center;
+}
+
 #pradana {
     background-color: rgb(196, 196, 196);
+    text-align: center;
+}
 
+#kenangan img{
+    border-radius: 10px;
 }
 
 section {
