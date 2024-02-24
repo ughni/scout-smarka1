@@ -1,6 +1,4 @@
-body {
-    text-align: center;
-}
+
 
 .jumbotron {
     color: #fff;
@@ -27,6 +25,7 @@ body {
 }
 
 section {
+    text-align: center;
     padding-top: 5rem;
 }
 
