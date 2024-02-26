@@ -8,7 +8,7 @@ body {
     background-color: rgb(196, 196, 196);
 }
 /* animasi text */
- span {
+.jumbotron span {
     color: #fff724;
  }
 
