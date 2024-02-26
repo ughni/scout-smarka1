@@ -7,6 +7,14 @@ body {
     padding-top: 6rem;
     background-color: rgb(196, 196, 196);
 }
+/* animasi text */
+ span {
+    color: #fff724;
+ }
+
+
+/* akhir animasi text */
+
 
 h2 {
     font-weight: bold;
