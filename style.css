@@ -46,12 +46,12 @@ section {
 .btn {
     transition: 300ms;
     color: #fff;
-    background: #777;
+    background: #141313;
 }
 
 .btn:hover {
-    background: white;
-    color: black;
+    background: rgb(32, 85, 32);
+    color: rgb(255, 247, 247);
 }
 
 
@@ -61,12 +61,12 @@ section {
     font-size: 20px;
     color: white;
     transition: 400ms;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(0, 0, 0);
 }
 
 .btn-primary:hover {
     color: #000;
-    background: white;
+    background: rgb(99, 84, 84);
 }
 /* footer */
 .footer {
