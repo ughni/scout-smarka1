@@ -2,18 +2,41 @@ body {
     box-sizing: border-box;
 }
 
+/* navbar */
+.navbar {
+    background: rgba(5, 25, 25, .4);
+}
+/* akhir navbar */
+
 .jumbotron {
-    color: #fff;
-    padding-top: 6rem;
-    background-color: rgb(196, 196, 196);
+    overflow: hidden;
+    /* padding-top: 6rem; */
 }
 /* animasi text */
 .jumbotron span {
-    color: #fff724;
+    color: #ff4524;
  }
 
+ .col1 {
+    margin-top: 200px;
+ }
 
 /* akhir animasi text */
+/* about */
+#about {
+    background: #000000;
+}
+
+.semua1 {
+    /* background: #777; */
+    color: #fff;
+    z-index: 9;
+}
+.col2 {
+    z-index: 1;
+}
+
+/* akhir about */
 
 
 h2 {
@@ -68,6 +91,62 @@ section {
     color: #000;
     background: rgb(99, 84, 84);
 }
+
+
+/* kenangan */
+.containerww {
+    width: 90%;
+    margin: auto;
+    border: 5px solid rgba(255, 255, 255, 0);
+}
+
+.gambar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #686868b1;
+}
+
+.jumbo {
+    border-radius: 10px;
+}
+
+.thumb {
+    box-sizing: border-box;
+    /* width: 200px; */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.thumb:hover {
+    opacity: 0.5;
+}
+
+.active {
+    opacity: 0.5;
+}
+
+@keyframes fade {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    opacity: 0;
+    animation: fade 0.5s forwards;
+}
+
+/* akhir kenangan */
+
+
+
+
+
+
 /* footer */
 .footer {
     text-align: center;
@@ -128,4 +207,19 @@ section {
     text-align: center;
     padding-top: 20px;
     border-top: 1px solid #777;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    /* .containerww {
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+        gap: px;
+    } */
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .col1 {
+        margin-top: 20px;
+    }
 }
